@@ -1,4 +1,7 @@
 remote_theme: pages-themes/hacker@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
-
+github:
+  repository_name: GtkHx
+  project_tagline: A GTK+ Hotline client
+  repository_url: https://github.com/mishan/gtkhx
