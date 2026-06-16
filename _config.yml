@@ -6,3 +6,5 @@ github:
   repository_name: GtkHx
   project_tagline: A GTK+ Hotline client
   repository_url: https://github.com/mishan/gtkhx
+title: GtkHx
+description: A GTK+ Hotline client
