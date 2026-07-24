@@ -1,24 +1,30 @@
-GtkHx is a GTK+ Hotline Client originally based on Hx.
+GtkHx is a GTK+ Hotline Client originally based on Hx. Originally written in C, and currently
+being rewritten in Rust.
 
 ## Features
 
 - Modern GTK+ 4 / libadwaita / libpanel UI with retro look and feel
 - Full TLS support, for servers, file transfers, and trackers
+- Cross platform -- works on Linux, macOS, and Windows
 - Support for extended Hotline protocol features and capabilities
-  - Voice chat (beta)
-  - Inline media (in progress)
-  - Blowfish and ChaCha20-Poly1305 cipher support
+  - Voice chat
+  - Inline media
   - Native UTF-8
+  - GIF icons
   - Large file transfers
   - Chat history
   - Colored names
-- Tracker v3 support
-- File preview supports common image types, QuickDraw PICTs, PDFs, and markdown / source files
-- Orthogonal file manager interface for file transfers
-- Server banner support
-- Systray and app notifications
-- Supports light and dark themes
+  - Blowfish and ChaCha20-Poly1305 cipher support
+  - Tracker v3
+- File previews
+  - Common image types via glycin
+  - QuickDraw PICTs via ImageMagick
+  - PDFs via libpoppler
+  - markdown / source files via libgtksourceview
+- Orthogonal file manager
 - Customizable UI allows for single window and multi window layouts
+- Themable, with support for light and dark themes
+- Systray and app notifications
 
 ## History
 
