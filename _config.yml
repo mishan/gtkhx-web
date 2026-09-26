@@ -4,7 +4,7 @@ plugins:
 
 github:
   repository_name: GtkHx
-  project_tagline: A GTK+ Hotline client
+  project_tagline: A Hotline client for Linux, macOS and Windows
   repository_url: https://github.com/mishan/gtkhx
 title: GtkHx
-description: A GTK+ Hotline client
+description: A Hotline client for Linux, macOS and Windows
