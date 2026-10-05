@@ -13,13 +13,22 @@ today.
 
 ## Get GtkHx
 
-The current version is **1.4.0**. Download it for your platform from the
-[latest release](https://github.com/mishan/gtkhx/releases/latest):
+The current version is **1.4.0**.
 
-- **Linux:** the `.flatpak` bundle. Install it with
-  `flatpak install --user GtkHx-*.flatpak`.
-- **macOS:** the `.zip` for Apple silicon (`arm64`) or Intel (`x86_64`).
-- **Windows:** the `win64` `.zip`.
+- **Linux:** install it from the GtkHx Flatpak repository, which keeps it
+  up to date with the rest of your Flatpak apps:
+
+  ```
+  flatpak install --user https://dl.gtkhx.org/gtkhx.flatpakref
+  ```
+
+  For betas, use `gtkhx-beta.flatpakref` instead. If you installed a
+  `.flatpak` bundle from a release before, run
+  `flatpak uninstall com.nasledov.gtkhx` first; your settings stay. More
+  at [dl.gtkhx.org](https://dl.gtkhx.org/).
+- **macOS:** the `.zip` for Apple silicon (`arm64`) or Intel (`x86_64`)
+  from the [latest release](https://github.com/mishan/gtkhx/releases/latest).
+- **Windows:** the `win64` `.zip`, from the same release.
 
 Or [build it yourself](https://github.com/mishan/gtkhx#building). What's
 new in each version is in the
