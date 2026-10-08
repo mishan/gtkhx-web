@@ -13,13 +13,16 @@ today.
 
 ## Get GtkHx
 
-The current version is **1.4.0**. Download it for your platform from the
-[latest release](https://github.com/mishan/gtkhx/releases/latest):
+The current version is **1.5.0**.
 
-- **Linux:** the `.flatpak` bundle. Install it with
-  `flatpak install --user GtkHx-*.flatpak`.
-- **macOS:** the `.zip` for Apple silicon (`arm64`) or Intel (`x86_64`).
-- **Windows:** the `win64` `.zip`.
+- **Linux:** the Flatpak, from GtkHx's own repository. Install it with
+  `flatpak install --user https://dl.gtkhx.org/gtkhx.flatpakref`, and it
+  updates like any other Flatpak app. `gtkhx-beta.flatpakref` follows the
+  betas instead.
+- **macOS:** the `.zip` for Apple silicon (`arm64`) or Intel (`x86_64`),
+  from the [latest release](https://github.com/mishan/gtkhx/releases/latest).
+- **Windows:** the `win64` `.zip`, from the
+  [latest release](https://github.com/mishan/gtkhx/releases/latest).
 
 Or [build it yourself](https://github.com/mishan/gtkhx#building). What's
 new in each version is in the
@@ -62,11 +65,13 @@ are online now, and you can search them by name.
 - **Several servers at once**, each in its own tab
 - **Secure connections** over TLS, with fingerprint pinning, and
   encrypted logins with Blowfish or ChaCha20-Poly1305
-- **Your layout:** dock panels side by side or pull them out into
-  windows of their own, the way the original Hotline client worked
+- **Your layout:** dock panels side by side, drag their tabs between
+  panes, or pull them out into windows of their own, the way the original
+  Hotline client worked
 - **Themes**, light and dark, including a Classic theme with the
   original pixel-art icons
 - **Notifications** and a tray icon
+- **Update notices** in the Flatpak, which can update and restart itself
 - Runs on **Linux, macOS and Windows**
 
 GtkHx also speaks the
@@ -76,7 +81,8 @@ icons, and tracker v3 with search.
 
 GtkHx works with any Hotline 1.2, 1.5 or 1.9 server. It is tested against
 [mhxd](https://github.com/kangsterizer/mhxd), Janus,
-[hxd-ng](https://github.com/mishan/hxd-ng) and the Argus tracker.
+[hxd-ng](https://github.com/mishan/hxd-ng), hlservd (the Hotline 1.9
+server) and the Argus tracker.
 
 ## History
 
