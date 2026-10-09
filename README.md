@@ -13,7 +13,7 @@ today.
 
 ## Get GtkHx
 
-The current version is **1.5.0**.
+The current version is **1.5.1**.
 
 - **Linux:** the Flatpak, from GtkHx's own repository. Install it with
   `flatpak install --user https://dl.gtkhx.org/gtkhx.flatpakref`, and it
@@ -64,7 +64,8 @@ are online now, and you can search them by name.
   them
 - **Several servers at once**, each in its own tab
 - **Secure connections** over TLS, with fingerprint pinning, and
-  encrypted logins with Blowfish or ChaCha20-Poly1305
+  encrypted logins with Blowfish or ChaCha20-Poly1305; a lock in the
+  header bar shows when a connection is encrypted, and how
 - **Your layout:** dock panels side by side, drag their tabs between
   panes, or pull them out into windows of their own, the way the original
   Hotline client worked
