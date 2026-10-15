@@ -13,7 +13,7 @@ today.
 
 ## Get GtkHx
 
-The current version is **1.5.1**.
+The current version is **1.6.0**.
 
 - **Linux:** the Flatpak, from GtkHx's own repository. Install it with
   `flatpak install --user https://dl.gtkhx.org/gtkhx.flatpakref`, and it
@@ -39,6 +39,9 @@ new in each version is in the
 ![Video chat and screen sharing](screenshots/video.png)
 *Video chat and screen sharing*
 
+![Downloads you can pause and resume, and the server's queue](screenshots/transfers.png)
+*Downloads you can pause and resume, and the server's queue*
+
 ![Finding servers on a tracker](screenshots/tracker.png)
 *Finding servers on a tracker*
 
@@ -55,11 +58,13 @@ are online now, and you can search them by name.
 
 - **Chat** with formatted text, colored names, inline images, emoji
   shortcodes, and a searchable history
-- **Private messages** and private chat rooms
+- **Private messages**, which can carry pictures, and private chat rooms
 - **Files:** a two-panel browser for downloading and uploading, with
-  previews of images, PDFs, source code and classic Mac PICT files
+  downloads you can pause and resume, and previews of images, PDFs,
+  source code and classic Mac PICT files, and of audio and video, which
+  play as they download
 - **News:** both the original flat news and threaded news with
-  categories and replies
+  categories, replies and pictures
 - **Voice chat, video chat and screen sharing**, on servers that support
   them
 - **Several servers at once**, each in its own tab
@@ -73,6 +78,10 @@ are online now, and you can search them by name.
   original pixel-art icons
 - **Notifications** and a tray icon
 - **Update notices** in the Flatpak, which can update and restart itself
+- **Accessible:** screen readers can name every control and are told of
+  private messages and mentions, nearly everything works from the
+  keyboard (Ctrl+? lists every key), and themes follow the system's
+  high-contrast setting
 - Runs on **Linux, macOS and Windows**
 
 GtkHx also speaks the
