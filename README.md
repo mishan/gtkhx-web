@@ -13,7 +13,7 @@ today.
 
 ## Get GtkHx
 
-The current version is **1.6.1**.
+The current version is **1.6.2**.
 
 - **Linux:** the Flatpak, from GtkHx's own repository. Install it with
   `flatpak install --user https://dl.gtkhx.org/gtkhx.flatpakref`, and it
